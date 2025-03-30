@@ -24,7 +24,7 @@ Server Configuration
 ```
 sudo mkdir -p /etc/frp
 ```
-Create the FRP server configuration file
+### -> Create the FRP server configuration file
 ```
 sudo nano /etc/frp/frps.ini
 ```
@@ -63,10 +63,7 @@ sudo frps -c /etc/frp/frps.ini &
 ```
 ![image](https://github.com/user-attachments/assets/e6d473b2-dc6f-4f52-9bdb-95f5ce1bca5a)
 
--> To make FRP run as a service on startup, you can create a systemd service file:
-```
-sudo nano /etc/systemd/system/frps.service
-```
+
 
 
 
